@@ -6,11 +6,6 @@ using DataFrames
 using CSV
 
 
-Random.seed!(1234)
-
-
-
-
 # Function to generate synthetic data
 function generate_synthetic_data(num_samples::Int)
     # Generate random data
@@ -35,10 +30,10 @@ function save_to_csv(df::DataFrame, filepath::String)
 end
 
 function main()
-    Random.seed!(1234) # Set random seed for reproducibility
+    Random.seed!() # Set random seed for reproducibility
     number_samples = 150     # Numbers of rows
     df = generate_synthetic_data(number_samples)
-    save_to_csv(df, "../data/synthetic_fusion_data.csv")
+    save_to_csv(df, "data/synthetic_fusion_data.csv")
 end
 
 # Run the main function if this script is executed directly
