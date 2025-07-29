@@ -8,7 +8,7 @@ Intro project to explore and visualize simple nuclear fusion data using Julia sc
 - Clean data, compute basic statistics, and visualize relationships with PNG plots.  
 - Draw conclusions about data trends, documented with comments and text files.
 
-## Suggested Steps
+## Steps
 
 1. **Generate simulated Data:**  
    - Create synthetic CSVs with columns like:  
@@ -21,10 +21,6 @@ Intro project to explore and visualize simple nuclear fusion data using Julia sc
    - Use `CSV.jl` and `DataFrames.jl` in CLI scripts.  
    - Calculate mean, max, min, std dev; print results.  
    - Plot histograms and scatter plots using `Plots.jl`, export as PNG.
-
-3. **Document results:**  
-   - Write observations in `RESULTS.txt`.  
-   - Comment your Julia code clearly.
 
 ## Julia packages used
 
